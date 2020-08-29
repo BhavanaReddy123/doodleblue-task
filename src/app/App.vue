@@ -2,13 +2,14 @@
   <div id="app">
     <header>
       <div class="logo-outer">
-        <img src="../../docs/zoomrx.png" alt="logo">
+        <img src="../../docs/doodle.gif" alt="logo">
+        <p>doodleblue</p>
       </div>
     </header>
     <main>
       <section class="title">
-        <h1>About Zoomrx</h1>
-        <p class="subtitle">Strategic healthcare consulting.</p>
+        <h1>WE DISCOVER, DESIGN & BUILD STRATEGY TO HELP BRANDS</h1>
+        <p class="subtitle">Digital Strategy Consulting & Design. Innovate. Transform</p>
       </section>
       <section>
         <board/>
@@ -31,7 +32,18 @@ export default {
   html, body {
     height: 100%;
   }
-
+  .logo-outer {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p {
+      font-size: 24px;
+      font-weight: 600;
+      color: #000;
+      margin-left: 1rem;
+    }
+  }
   body {
     padding: 20px;
   }
@@ -53,14 +65,14 @@ export default {
       margin-top: 7rem;
     }
     h1 {
-      color: #113661;
+      color: #000;
       font-weight: 600;
       font-size: 2rem;
       line-height: 1.5rem;
       margin-bottom: 1rem;
     }
     .subtitle {
-      color: #3b3b3b;
+      color: #8f8d8d;
       font-size: 1.2rem;
     }
   }
